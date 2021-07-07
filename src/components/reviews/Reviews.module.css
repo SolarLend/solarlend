@@ -1,0 +1,71 @@
+
+.titleShade {
+    text-shadow: -37px -16px 7px rgba(150, 150, 150, 0.3);
+    display: block;
+    position: absolute;
+    color: transparent;
+    top: 0;
+    z-index: -1;
+}
+.objSlider{
+    margin-top: 50px;
+}
+.revieWrap{
+    position: relative;;
+}
+.objSlider{
+    position: initial;
+}
+.sliderItemWrap{
+    position: relative;
+    margin: 0 15px;
+}
+.sliderItemWrap > img{
+    width: 100%;
+    max-height: 350px;
+}
+.caption{
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+    font: normal normal bold 16px/24px Futura PT;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    padding: 0 15px;
+}
+.reviewIcon{
+    cursor: pointer;
+    margin-bottom: 40px;
+}
+.closebtn {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    background: #000;
+    display: flex;
+    align-items: stretch;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    border: none;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+
+}
+
+.closebtn img{
+    max-width: 17px;
+}
+
+@media (max-width: 770px){
+    .revieWrap{
+        margin-top: 70px;
+    }
+}

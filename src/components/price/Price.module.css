@@ -1,0 +1,130 @@
+
+.priceSection{
+    margin-top: 120px;
+}
+.priceWrap{
+    display: flex;
+    max-width: 90%;
+    margin: 0 auto;
+    margin-top: 53px;
+    padding-bottom: 30px;
+    /* border-bottom: 5px solid #9FD833; */
+}
+.priceItem{
+    max-width: 33%;
+    text-align: center;
+    font: normal normal normal 13px/21px Montserrat;
+    letter-spacing: 0px;
+    color: #000000;
+    padding: 40px;
+    transition: all 0.3s;
+}
+.priceItem:first-child{
+animation-delay: 0.6s;
+}
+.priceItem:nth-child(2){
+animation-delay: 0.4s;
+}
+.priceItem:nth-child(3){
+animation-delay: 0.2s;
+}
+.priceItem:nth-child(4){
+
+}
+.priceItem:hover{
+    -webkit-box-shadow: 0px 0px 29px -9px rgba(0,0,0,0.33);
+    box-shadow: 0px 0px 29px -9px rgba(0,0,0,0.33);
+    cursor: pointer;
+}
+.priceItem p{
+    margin-bottom: 0;
+}
+.vid,
+.za{
+    font: normal normal bold 18px/22px Montserrat;
+    letter-spacing: 0px;
+    color: #383838;
+}
+.price{
+    font: normal normal bold 48px/61px Futura PT;
+    letter-spacing: 0px;
+    color: #9FD833;
+    margin-top: 4px;
+}
+.za{
+    font-weight: normal;
+}
+.priceTitle{
+    font: normal normal 300 24px/26px Futura PT;
+    letter-spacing: 0px;
+    color: #383838;
+    max-width: 90%;
+    margin: 0 auto;
+    margin-top: 19px;
+}
+.priceBtn{
+    margin: 0 auto;
+    background: #fff;
+    color: #000;
+    border: 2px solid #5EB752;
+    margin-top: 54px;
+    max-width: 208px;
+}
+
+.priceBtn:hover{
+    background: #5EB752;
+    color: #fff;
+    text-decoration: none;
+}
+.decor{
+    max-width: 80%;
+    margin: 0 auto;
+    margin-top: 24px;
+    background: #D9D9D9;
+    height: 1px;
+}
+.text{
+    margin-top: 32px;
+}
+.mobPrice{
+    display: none;
+}
+.mobPrice{
+    position: relative;
+}
+.objSlider{
+    position: initial;
+}
+@media (max-width: 1200px) {
+    .priceWrap{
+        flex-wrap: wrap;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        justify-content: center;
+    }
+    .priceItem{
+        width: 40%;
+        max-width: 50%;
+    }
+}
+@media (max-width: 830px) {
+    .priceItem{
+        width: 50%;
+    }
+}
+@media (max-width: 674px) {
+    .priceWrap{
+        display: none;
+    }
+    .mobPrice{
+        display: block;
+    }
+    .priceItem{
+        width: 100%;
+        max-width: 100%;
+        padding-bottom: 15px;
+    }
+    .priceSection{
+        margin-top: 70px;
+    }
+}

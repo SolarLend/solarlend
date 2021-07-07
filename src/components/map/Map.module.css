@@ -1,0 +1,16 @@
+.mapWrap{
+    position: relative;
+    margin-top:  190px;
+}
+
+.pin{
+    width: 40px;
+    margin-top: -80px;
+
+}
+
+@media (max-width: 769px) {
+    .mapWrap{
+        margin-top: 507px;
+    }
+}

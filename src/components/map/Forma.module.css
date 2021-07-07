@@ -1,0 +1,148 @@
+.addressWrap{
+    position: absolute;
+    max-width: 450px;
+    width: 450px;
+    height: 780px;
+    z-index: 1;
+    top: -10%;
+    right: 10%;
+
+}
+.addressTop,
+.addressBottom{
+    background-color: #fff;
+    -webkit-box-shadow: 0px 0px 21px -4px rgba(0,0,0,0.24);
+    box-shadow: 0px 0px 21px -4px rgba(0,0,0,0.24);
+    padding: 48px;
+}
+.addressBottom{
+    margin-top: 40px;
+    position: relative;
+}
+.addrTitle{
+    text-align: left;
+    font: normal normal bold 50px/62px Futura PT;
+    letter-spacing: 0px;
+    color: #000000;
+    text-transform: uppercase;
+}
+.inputWrap{
+    display: flex;
+    flex-direction: column;
+
+}
+.inputWrap input{
+    border: none;
+    border-bottom: 1px solid grey;
+    outline: none;
+    line-height: 50px;
+}
+.addr{
+    text-align: left;
+    font: normal normal normal 16px/19px Montserrat;
+    letter-spacing: 0px;
+    color: #000000;
+    max-width: 250px;
+}
+.phonesMobWrap{
+    margin-top: 45px;
+    margin-bottom: 45px;
+}
+.phone a{
+    text-align: left;
+    font: normal normal normal 26px/32px Montserrat;
+    letter-spacing: 0px;
+    color: #000000;
+}
+.phone img{
+    max-width: 17px;
+}
+.mail a,
+.schedule{
+    text-decoration: underline;
+    font: normal normal normal 16px/19px Montserrat;
+    letter-spacing: 0px;
+    color: #000000;
+}
+.schedule{
+    text-decoration: none;
+}
+.addressBottom p {
+    display: flex;
+
+}
+.addressBottom p img {
+    margin-right: 20px;
+}
+.schedule{
+    margin-left: 43px;
+}
+.formBtn{
+    border: none;
+    margin-top: 40px;
+}
+.formBtn:hover{
+    background: #fff;
+    color: #333;
+    border: 2px solid  #9FD833 ;
+}
+.hideForm{
+    display: none;
+}
+.thankWrap,
+.thanktitle{
+    text-align: center;
+}
+.thanktitle{
+    font-size: 49px;
+    line-height: 60px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.thanktext{
+    color: #9FD833;
+}
+.phonesMobWrap .phone a:hover{
+    color: #5eb752!important;
+    text-decoration: none !important;
+}
+.formBtn:disabled{
+    opacity: 0.4 !important;
+    cursor: none !important;
+
+}
+@media (max-width: 769px) {
+    .addressWrap {
+        position: absolute;
+        max-width: 450px;
+        width: 450px;
+        height: 780px;
+        z-index: 1;
+        top: -60%;
+        right: 0;
+        left: 0;
+        margin: 0 auto;
+    }
+    .addressBottom{
+        margin-top: 460px;
+    }
+}
+@media (max-width: 447px) {
+    .addressWrap{
+        width: 95%;
+    }
+    .addrTitle{
+        font: normal normal bold 42px/52px Futura PT;
+        text-align: center;
+    }
+    .phone a{
+        font: normal normal normal 19px/26px Montserrat;
+    }
+}
+@media (max-width: 362px) {
+    .addressTop,
+    .addressBottom{
+        padding-left: 18px;
+        padding-right: 18px;
+    }
+}

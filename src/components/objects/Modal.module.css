@@ -1,0 +1,134 @@
+.contentWrap{
+    background: #fff;
+    /*height: 80vh;*/
+    display: flex;
+    /*padding: 40px;*/
+    justify-content: space-between;
+}
+.leftItem{
+    max-width: 600px;
+}
+.rightItem, .leftItem{
+    width: 50%;
+}
+.images{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+.leftItem .imgWrap {
+    max-width: 150px;
+    max-height: 150px;
+    width: 100%;
+    display: block;
+    width: 30%;
+    margin: 15px;
+}
+.imgWrap img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+
+.imgModalWrap{
+
+}
+.closebtn {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    background: #000;
+    display: flex;
+    align-items: stretch;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    border: none;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    cursor: pointer;
+}
+.closebtn img{
+    max-width: 17px;
+}
+.mobImages{
+    display: none;
+    position: relative;
+}
+.objSlider{
+    position: initial;
+}
+.popCenter:hover{
+    border-color:  #98BA56;
+    background: #fff;
+    color: #333;
+    text-decoration: none;
+}
+@media (max-width: 1015px){
+    .contentWrap{
+        flex-direction: column;
+    }
+    .leftItem,
+    .rightItem{
+        width: 90%;
+        max-width: 90%;
+        margin: 0 auto;
+    }
+    .leftItem{
+        margin-bottom: 60px;
+    }
+    .leftItem .imgWrap {
+        max-width: 150px;
+        max-height: 150px;
+        width: 100%;
+        display: block;
+        width: 20%;
+        margin: 15px;
+    }
+}
+@media (max-width: 883px) {
+    .images{
+        display: none;
+    }
+    .mobImages{
+        display: block;
+    }
+    .leftItem .imgWrap {
+        max-width: 100%;
+        max-height: auto;
+        width: 100%;
+        margin: 15px;
+
+    }
+}
+@media (max-width: 770px) {
+    .leftItem .imgWrap {
+        margin: 5px;
+        max-height: 300px;
+        pointer-events: none;
+    }
+
+    .leftItem,
+    .rightItem{
+        width: 100%;
+        max-width: 100%;
+        margin-bottom: 60px;
+    }
+    .popCenter{
+        margin: 0 auto;
+    }
+}
+@media (max-width: 488px) {
+.rightItem h2{
+    font-size: 5vw;
+    line-height: 6.5vw;
+}
+
+    .rightItem{
+        margin-bottom: 0px;
+    }
+}

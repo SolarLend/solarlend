@@ -1,0 +1,118 @@
+
+.stepsWrap{
+    position: relative;
+}
+
+
+.titleShade{
+    text-shadow: -37px -16px 7px rgba(150, 150, 150, 0.3);
+    left: 0;
+    right: 0;
+}
+.steps{
+    margin-top: 53px;
+    display: flex;
+}
+.stepItem{
+    width: 33.3%;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #F3F3F3;
+    padding-bottom: 70px;
+}
+.stepItem:nth-child(2){
+    background-color: #383838;
+}
+.stepnum{
+    width: 100%;
+    text-align: left;
+    font: normal normal 900 76px/98px Futura PT;
+    letter-spacing: 0px;
+    color: transparent;
+    -webkit-text-stroke: 1.5px #C4C4C4;
+    opacity: 0.8;
+}
+.steptitle{
+    text-align: center;
+    font: normal normal bold 32px/42px Futura PT;
+    letter-spacing: 0px;
+    color: #000000;
+    text-transform: uppercase;
+    margin: 0 auto;
+    max-width: 360px;
+}
+.stepItem:nth-child(2){
+    color: #fff;
+}
+.stepItem:nth-child(2) .steptitle{
+    color: #fff;
+}
+.stepItem:first-child .steptitle,
+.stepItem:nth-child(2) .steptitle{
+    max-width: 200px;
+}
+
+.stepItem:nth-child(3) .steptitle{
+    margin-top: -20px;
+}
+
+.stepItem:first-child > .icon,
+.stepItem:nth-child(2) > .icon{
+    margin-top: 70px;
+}
+
+
+
+.stepItem .list ul{
+    list-style: "— ";
+}
+
+
+
+
+.notMargin{
+    margin-top: 0px !important;
+}
+.list{
+    margin-top: 40px;
+    max-width: 80%;
+}
+.mobsteps{
+    display: none;
+}
+.objSlider{
+    position: initial;
+}
+
+
+
+@media (max-width: 1069px) {
+    .steptitle{
+        font: normal normal bold 22px/32px Futura PT;
+    }
+    .list{
+        max-width: 100%;
+    }
+}
+@media (max-width: 770px) {
+    .steps{
+        display: none;
+    }
+    .mobsteps{
+        display: block;
+        margin-top: 40px;
+        /*margin-bottom: 60px;*/
+    }
+    .stepItem{
+        width: 100%;
+        justify-content: space-between;
+    }
+    .steptitle{
+        max-width: 90% !important;
+    }
+.stepnum{
+    text-align: center;
+}
+}

@@ -1,0 +1,1491 @@
+
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+
+/* Document
+   ========================================================================== */
+
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+
+html {
+    line-height: 1.15; /* 1 */
+    -webkit-text-size-adjust: 100%; /* 2 */
+}
+
+/* Sections
+   ========================================================================== */
+
+/**
+ * Remove the margin in all browsers.
+ */
+
+body {
+    margin: 0;
+}
+
+/**
+ * Render the `main` element consistently in IE.
+ */
+
+main {
+    display: block;
+}
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+
+h1 {
+    font-size: 2em;
+    margin: 0.67em 0;
+}
+
+/* Grouping content
+   ========================================================================== */
+
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+
+hr {
+    box-sizing: content-box; /* 1 */
+    height: 0; /* 1 */
+    overflow: visible; /* 2 */
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+
+pre {
+    font-family: monospace, monospace; /* 1 */
+    font-size: 1em; /* 2 */
+}
+
+/* Text-level semantics
+   ========================================================================== */
+
+/**
+ * Remove the gray background on active links in IE 10.
+ */
+
+a {
+    background-color: transparent;
+}
+
+/**
+ * 1. Remove the bottom border in Chrome 57-
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+
+abbr[title] {
+    border-bottom: none; /* 1 */
+    text-decoration: underline; /* 2 */
+    text-decoration: underline dotted; /* 2 */
+}
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+
+b,
+strong {
+    font-weight: bolder;
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+
+code,
+kbd,
+samp {
+    font-family: monospace, monospace; /* 1 */
+    font-size: 1em; /* 2 */
+}
+
+/**
+ * Add the correct font size in all browsers.
+ */
+
+small {
+    font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+
+sub,
+sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+}
+
+sub {
+    bottom: -0.25em;
+}
+
+sup {
+    top: -0.5em;
+}
+
+/* Embedded content
+   ========================================================================== */
+
+/**
+ * Remove the border on images inside links in IE 10.
+ */
+
+img {
+    border-style: none;
+}
+
+/* Forms
+   ========================================================================== */
+
+/**
+ * 1. Change the font styles in all browsers.
+ * 2. Remove the margin in Firefox and Safari.
+ */
+
+button,
+input,
+optgroup,
+select,
+textarea {
+    font-family: inherit; /* 1 */
+    font-size: 100%; /* 1 */
+    line-height: 1.15; /* 1 */
+    margin: 0; /* 2 */
+}
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+
+button,
+input { /* 1 */
+    overflow: visible;
+}
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+
+button,
+select { /* 1 */
+    text-transform: none;
+}
+
+/**
+ * Correct the inability to style clickable types in iOS and Safari.
+ */
+
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+    -webkit-appearance: button;
+}
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+    border-style: none;
+    padding: 0;
+}
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+    outline: 1px dotted ButtonText;
+}
+
+/**
+ * Correct the padding in Firefox.
+ */
+
+fieldset {
+    padding: 0.35em 0.75em 0.625em;
+}
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+
+legend {
+    box-sizing: border-box; /* 1 */
+    color: inherit; /* 2 */
+    display: table; /* 1 */
+    max-width: 100%; /* 1 */
+    padding: 0; /* 3 */
+    white-space: normal; /* 1 */
+}
+
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+
+progress {
+    vertical-align: baseline;
+}
+
+/**
+ * Remove the default vertical scrollbar in IE 10+.
+ */
+
+textarea {
+    overflow: auto;
+}
+
+/**
+ * 1. Add the correct box sizing in IE 10.
+ * 2. Remove the padding in IE 10.
+ */
+
+[type="checkbox"],
+[type="radio"] {
+    box-sizing: border-box; /* 1 */
+    padding: 0; /* 2 */
+}
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+    height: auto;
+}
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+
+[type="search"] {
+    -webkit-appearance: textfield; /* 1 */
+    outline-offset: -2px; /* 2 */
+}
+
+/**
+ * Remove the inner padding in Chrome and Safari on macOS.
+ */
+
+[type="search"]::-webkit-search-decoration {
+    -webkit-appearance: none;
+}
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+
+::-webkit-file-upload-button {
+    -webkit-appearance: button; /* 1 */
+    font: inherit; /* 2 */
+}
+
+/* Interactive
+   ========================================================================== */
+
+/*
+ * Add the correct display in Edge, IE 10+, and Firefox.
+ */
+
+details {
+    display: block;
+}
+
+/*
+ * Add the correct display in all browsers.
+ */
+
+summary {
+    display: list-item;
+}
+
+/* Misc
+   ========================================================================== */
+
+/**
+ * Add the correct display in IE 10+.
+ */
+
+template {
+    display: none;
+}
+
+/**
+ * Add the correct display in IE 10.
+ */
+
+[hidden] {
+    display: none;
+}
+*{
+    transition: all 0.3s;
+    scroll-behavior: smooth;
+    text-decoration: none;
+}
+/* a:hover{
+    color: lime;
+} */
+
+
+
+/*Header*/
+.container-fluid{
+    padding: 0 !important;
+}
+.navbar{
+    top: 0;
+    width: 100%;
+    z-index: 6;
+    background: #fff;
+    position: fixed;
+    -webkit-box-shadow: 5px 5px 18px -10px rgba(0,0,0,0.3); 
+    box-shadow: 5px 5px 18px -10px rgba(0,0,0,0.3);
+    z-index: 99 !important;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(0,0,0, 1);
+}
+
+
+.navbar-nav{
+    flex-grow: 2;
+}
+.btnWrap{
+    flex-grow: 1;
+}
+
+.navbar-toggler{
+    border: none;
+}
+
+.headertopnav {
+    flex: 0 0 100px;
+    max-width: 100px;
+    /* height: 20px; */
+}
+ .headertopnav div {
+    width: 50px;
+    position: relative;
+    background-color: transparent;
+    border: 0;
+    text-align: right;
+    text-transform: uppercase;
+    font: normal normal 900 12px/12px Futura PT;
+    letter-spacing: 0px;
+    color: #5EB752;
+    cursor: pointer;
+    transition: padding-left .5s;
+    margin-top: 0px;
+    top: -10px;
+    padding-right: 0;
+    transition: all 0.3s;
+
+}
+ .headertopnav div:before {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    right: 0;
+    height: 3px;
+    width: 32px;
+    background-color: #5EB752;
+    transition: all 0.3s;
+    border-radius: 4px;
+}
+ .headertopnav div:after {
+    content: '';
+    position: absolute;
+    bottom: -13px;
+    right: 0;
+    height: 3px;
+    width: 43px;
+    background-color: #5EB752;
+    transition: all 0.3s;
+    border-radius: 4px;
+}
+.navbar-brand img{
+    max-width: 95%;
+}
+.navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus {
+    color: #5EB752 !important;
+}
+
+.active div:before {
+    transform: rotate(45deg) !important;
+    width: 30px !important;
+    top: 14px !important;
+    right: 1px;
+}
+.active div:after {
+    transform: rotate(-45deg);
+    width: 30px !important;
+    left: 18px !important;
+    top: 14px  !important;
+}
+.active .headertopnavbtn{
+    color: transparent
+}
+
+.phones{
+    background: transparent !important;
+    display: flex;
+    border: none !important;
+    outline: none !important;
+    align-items: center;
+    border-left: 1px solid rgba(112, 112, 112, 0.2) !important;
+    border-right: 1px solid rgba(112, 112, 112, 0.2) !important;
+}
+.mob-phones-view{
+    display: none;
+}
+.phones a, .phones button{
+    background: transparent !important;
+    outline: none !important;
+    border: none !important;
+    box-shadow: 0 0 0 transparent !important;
+}
+.phones .dropdown-item:active {
+    color: #000 !important;
+    text-decoration: none;
+    background-color: transparent !important;
+}
+.dropdown-toggle::after{
+    content: "";
+    width: 15px;
+    height: 15px;
+    background: url(https://solarland.s-tet.top/wp-content/uploads/2021/06/down-arrow.svg);
+    background-size: 10px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.dropWrap{
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+.dropdown-menu {
+    padding: 15px;
+}
+.phoneNum{
+text-align: left;
+}
+.phoneNum img{
+    max-width: 17px;
+}
+.phoneNum:hover{
+    color: #5eb752!important;
+}
+.desc-phones-wrap .phoneNum{
+     padding-top: 0 !important;
+     padding-bottom: 0 !important;
+}
+.firstItm{
+    padding-right: 0;
+    padding-left: 10px;
+}
+.btnWrap {
+    margin: 0 !important;
+    align-items: center;
+    justify-content: space-between;
+    min-width: 40%;
+}
+#basic-navbar-nav{
+    justify-content: space-around;
+    align-items: center;
+}
+.headerPop{
+    background: transparent !important;
+    border: 2px solid #98BA56 !important;
+    font: normal normal bold 12px/15px Montserrat !important;
+    letter-spacing: 0px !important;
+    color: #383838 !important;
+    max-width: 176px !important;
+    line-height: 45px !important;
+}
+.headerPop:hover{
+    color: #fff !important;
+    background: #98BA56 !important;
+    text-decoration: none;
+}
+
+#conatctForm{
+    min-height: 10px;
+}
+#address{
+    min-height: 10px;
+}
+
+.lang a{
+    color:rgba(112, 112, 112, 0.5);
+    margin-right: 5px; 
+}
+.lang .active{
+    font-weight: 400;
+}
+.mobphone{
+    display: none;
+}
+.mobview{
+    display: none;
+}
+.phonecall{
+    display: none;
+}
+.mobLang{
+    display: none;
+}
+.mobSocialWrap{
+    display: none;
+}
+.mobaddress{
+    display: none;
+}
+.descAddr{
+    max-width: 350px;
+    white-space: normal;
+}
+
+.ril__navButtonNext {
+    background: rgba(0,0,0,.2) url(https://solarland.s-tet.top/wp-content/uploads/2021/06/open-arrow-left-2.svg) no-repeat 50% !important;
+    right: 0;
+    transform: rotate(180deg);
+}
+.ril__navButtonPrev {
+    background: rgba(0,0,0,.2) url(https://solarland.s-tet.top/wp-content/uploads/2021/06/open-arrow-left-2.svg) no-repeat 50% !important;
+    left: 0;
+   
+}
+.ril__closeButton {
+    background: url(https://solarland.s-tet.top/wp-content/uploads/2021/06/close.svg) no-repeat center !important;
+    background-size: 20px !important;
+    width: 20px !important;
+    height: 20px !important;
+    margin-left: 10px;
+}
+.ril__zoomInButton {
+    background: url(https://solarland.s-tet.top/wp-content/uploads/2021/06/zoom-in.svg) no-repeat center !important;
+    background-size: 20px !important;
+}
+.ril__zoomOutButton {
+    background: url(https://solarland.s-tet.top/wp-content/uploads/2021/06/zoom-out.svg) no-repeat center !important;
+    transform: rotateY(-180deg);
+    background-size: 20px !important;
+}
+
+.dropdown-item.active, .dropdown-item:active {
+    background-color: transparent !important;
+    font-weight: 400 !important;
+}
+
+
+@media (max-width: 1322px){
+    .headerPop {
+        max-width: 117px !important;
+        font-size: 8px !important;
+        max-height: 37px;
+        line-height: 37px !important;
+    }
+    .navbar-nav a {
+        padding-left: 3px !important;
+        padding-right: 3px !important;
+    }
+}
+
+/* @media (min-width: 1080px){
+    .navbar-nav {
+        margin-left: 3%;
+    }
+} */
+@media (max-width: 1201px){
+    .navbar-nav{
+        flex-grow: 1;
+    }
+    .navbar-nav a{
+        padding-left: 3px !important;
+        padding-right: 3px !important;
+    }
+    .headerPop{ 
+        max-width: 117px !important;
+        font-size: 8px !important;
+        max-height: 37px;
+        line-height: 37px !important;
+    }
+    .navbar-brand{
+        max-width: 13% !important;
+        display: block;
+    }
+    .navbar{
+        align-items: baseline;
+    }
+    .firstItm {
+        font-size: 14px;
+    }
+}
+
+
+@media (max-width: 1145px){
+    .desc-phones-wrap a{
+        padding: 0 5px;
+    }
+    .navbar-nav a{
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width: 991px){
+    .btnWrap{
+        display: none !important;
+    }
+    .mobphone{
+        display: block !important;
+    }
+    .navbar-nav{
+        text-align: center;
+        margin-top: 32px;
+        padding-bottom: 40px;
+        max-height: 90vh;
+        overflow-y: auto;
+    }
+    .navbar-brand {
+        max-width: 100% !important;
+        display: block;
+    }
+    .navbar-nav a{
+        font: normal normal normal 24px/43px Montserrat;
+        letter-spacing: 0px;
+        color: #000000 !important;
+        opacity: 1 !important;
+    }
+    .descLang{
+        display: none;
+    }
+    .mobLang{
+        display: block;
+    }
+    .mobSocialWrap{
+        display: block;
+
+    }
+    .mobSocialWrap a{
+        text-align: center;
+    }
+    .phonesMenuWrap{
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    #basic-navbar-nav{
+        position: absolute;
+        width: 100%;
+        top: 16px;
+        background-color: rgb(255, 255, 255);
+        left: 0px;
+        right: 0px;
+        margin: 42px auto 0px;
+        z-index: 12;
+    }
+    .active{
+        font-weight: 700 !important;
+    }
+    .secShadow{
+        position: relative;
+        z-index: 2;
+        display: block;
+    }
+
+
+    .secShadow:before,
+    .secShadow:after{
+        content: "";
+        display: block;
+       border-radius: 50%;
+        position: absolute;
+    }
+    .secShadow:before{
+        width: 36px;
+        height: 36px;
+        left: -3px;
+        top: 1px;
+        bottom: 0;
+        right: 0;
+        margin: auto;
+        box-shadow: inset 1px 1px 13px -2px #5EB752;
+        opacity: 0.2;
+        z-index: 0;
+        animation: pulse-black 2s infinite;
+    }
+    .secShadow:after{
+        width: 34px;
+        height: 34px;
+        left: -2px;
+        top: -2px;
+        margin: 0 auto;
+        box-shadow: inset 1px 1px 13px -2px #5EB752;
+        opacity: 0.5;
+        z-index: 1;
+        animation: pulse-black 2s infinite;
+    }
+
+    @keyframes pulse-black {
+        0% {
+            transform: scale(0.95);
+            box-shadow: 0 0 0 0 rgba(94, 183, 82, 0.7);
+        }
+        
+        70% {
+            transform: scale(1);
+            box-shadow: 0 0 0 10px rgba(94, 183, 82, 0);
+        }
+        
+        100% {
+            transform: scale(0.95);
+            box-shadow: 0 0 0 0 rgba(94, 183, 82, 0);
+        }
+    }
+    .mob-phones-view {
+        display: block;
+    }
+    .phones{
+        border: none !important;
+    }
+    .phonecall{
+        display: block;
+        max-width: 30px;
+    }
+    .dropdown-toggle::after{
+        display: none;
+    }
+    .mobAddr{
+        position: absolute;
+        top: -80px;
+    }
+
+}
+
+@media (max-width: 658px){
+    .dropdown-menu.show {
+        position: absolute;
+        border: none;
+        top: 56px;
+        left: 0;
+        right: 0;
+        width: 100vw;
+        height: 100vh;
+        min-height: 400px;
+        z-index: 1000;
+        display: block;
+        float: none;
+        min-width: 100%;
+    }
+    .mobphone .dropdown {
+        position: static;
+        display: flex;
+        justify-content: center;
+    }
+    .phoneNum {
+        text-align: center;
+        font: normal normal normal 22px/37px Montserrat;
+        letter-spacing: 0px;
+        color: #000000;
+    }
+    .phoneInside {
+        margin: 0 auto;
+        margin-bottom: 40px;
+    }
+    .clasePhwrap{
+        border-radius: 50%;
+        background-color: #000;
+        width: 30px;
+        height: 30px;
+    }
+    .clasePhwrap img{
+        max-width: 17px;
+        transform: rotate(45deg);
+    }
+    .mobaddress {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        max-width: 350px;
+        margin: 0 auto;
+    }
+    .mobaddress, .mailLink {
+        white-space: normal;
+        text-align: center !important;
+        font: normal normal normal 16px/19px Montserrat;
+        margin: 0 auto;
+    }
+    .descAddr {
+        margin: 0 auto;
+    }
+   
+  
+}
+
+
+@media (max-width: 556px){
+    .phonecall{
+        max-width: 30px;
+        display: block;
+
+    }
+    .mob-phones-view{
+        display: block;
+    }
+
+    .menu-btn-wrap,
+    .navbar-brand{
+        width: 40%;
+    }
+    .menu-btn-wrap{
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .mobphone{
+        width: 20%;
+    }
+    .phoneInside {
+        margin: 0 auto;
+        margin-bottom: 40px;
+    }
+    .clasePhwrap{
+        border-radius: 50%;
+        background-color: #000;
+        width: 30px;
+        height: 30px;
+    }
+    .clasePhwrap img{
+        max-width: 17px;
+        transform: rotate(45deg);
+    }
+
+    .secShadow{
+        position: relative;
+        z-index: 2;
+        display: block;
+    }
+
+
+    .secShadow:before,
+    .secShadow:after{
+        content: "";
+        display: block;
+       border-radius: 50%;
+        position: absolute;
+    }
+    .secShadow:before{
+        width: 36px;
+        height: 36px;
+        left: -3px;
+        top: 1px;
+        bottom: 0;
+        right: 0;
+        margin: auto;
+        box-shadow: inset 1px 1px 13px -2px #5EB752;
+        opacity: 0.2;
+        z-index: 0;
+        animation: pulse-black 2s infinite;
+    }
+    .secShadow:after{
+        width: 34px;
+        height: 34px;
+        left: -2px;
+        top: -2px;
+        margin: 0 auto;
+        box-shadow: inset 1px 1px 13px -2px #5EB752;
+        opacity: 0.5;
+        z-index: 1;
+        animation: pulse-black 2s infinite;
+    }
+
+    @keyframes pulse-black {
+        0% {
+            transform: scale(0.95);
+            box-shadow: 0 0 0 0 rgba(94, 183, 82, 0.7);
+        }
+        
+        70% {
+            transform: scale(1);
+            box-shadow: 0 0 0 10px rgba(94, 183, 82, 0);
+        }
+        
+        100% {
+            transform: scale(0.95);
+            box-shadow: 0 0 0 0 rgba(94, 183, 82, 0);
+        }
+    }
+
+
+
+    .deckwiev{
+        display: none;
+    }
+    .mobview{
+        display: block;
+    }
+    .navbar {
+        align-items: center;
+    }
+    .phones{
+        border: none !important;
+    }
+    .phones:after{
+        display: none;
+    }
+    .mobphone .dropdown{
+        position: static;
+        display: flex;
+        justify-content: center;
+    }
+
+    .dropdown-menu.show{
+        position: absolute;
+        border: none;
+        top: 56px;
+        left: 0;
+        right: 0;
+        width: 100vw;
+        height: 100vh;
+        min-height: 400px;
+        z-index: 1000;
+        display: block;
+        float: none;
+        min-width: 100%;
+    }
+    .mobaddress{
+        margin-top: 49px;
+        margin-bottom: 24px;
+        display: block;
+    }
+    .mobaddress,  .mailLink{
+        white-space: normal;
+        text-align: center;
+        font: normal normal normal 16px/19px Montserrat;
+    }
+    .phoneNum{
+        text-align: center;
+        font: normal normal normal 22px/37px Montserrat;
+        letter-spacing: 0px;
+        color: #000000;
+    }
+    .mobaddress{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .mobaddress img{
+        width: 24px;
+        margin-right: 10px;
+    }
+    .mobaddress:hover{
+        background-color: transparent !important;
+    }
+    .logoImg{
+        max-width: 80%;
+    }
+    .navbar-brand {
+        margin-right: 0;
+        max-width: 50% !important;
+    }
+}
+@media (max-width: 385px){
+    .navbar-brand{
+        max-width: 13%;
+    }
+}
+
+/*Header*/
+
+
+
+/* Policy modal */
+.modal-main{
+    max-width: 90vw;
+    margin: 0 auto;
+    overflow-y: auto;
+    max-height: 80vh;
+    height: 80vh;
+    background-color: #fff;
+    padding: 40px;
+}
+.privTitle{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.closebtn {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    background: #000;
+    display: flex;
+    align-items: stretch;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    border: none;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    cursor: pointer;
+}
+.closebtn img{
+    max-width: 17px;
+}
+.prPolicy{
+    cursor: pointer;
+}
+.prPolicy:hover{
+    text-decoration: underline;
+}
+
+/* Policy modal */
+
+
+
+
+/*Title style*/
+.titleWrap{
+    font: normal normal bold 50px/62px Futura PT;
+    letter-spacing: 0px;
+    text-transform: uppercase;
+    padding-top: 100px;
+
+}
+.title{
+    text-align: center;
+    max-width: 657px;
+    margin: 0 auto;
+    position: relative;
+
+}
+.title span{
+    color: #5EB752;
+}
+.titleShade{
+    text-shadow: -77px -36px 7px rgba(150, 150, 150, 0.3);
+    display: block;
+    position: absolute;
+    color: transparent;
+    top: 0;
+    z-index: -1;
+}
+.titleShade span{
+
+    color: transparent !important;
+
+} 
+
+/*Title style*/
+
+
+
+/*Button style*/
+.pop{
+    background: transparent linear-gradient(180deg, #9FD833 0%, #5EB752 100%) 0% 0% no-repeat padding-box;
+    border-radius: 24px;
+    opacity: 0.84;
+    text-align: center;
+    font: normal normal bold 16px/19px Montserrat;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    max-width: 400px;
+    width: 339px;
+    height: 48px;
+    line-height: 44px;
+    cursor: pointer;
+    display: block;
+    border: 2px solid transparent;
+}
+/*Button style*/
+
+
+
+
+/* Modal Stiles */
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 900;
+}
+
+.modal-main {
+    position: fixed;
+    width: 80%;
+    height: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.rew-modal{
+    height: 82vh;
+    width: 71.3vw;
+}
+.display-block {
+    display: block;
+}
+
+.display-none {
+    display: none;
+}
+
+.close-btn {
+    position: absolute;
+    top: 0;
+    right: -30px;
+}
+
+
+/* Modal Styles End */
+
+.carousel-indicators{
+    z-index: 2 !important;
+}
+.topSlider .carousel-indicators {
+    left: 60%;
+}
+.topSlider .carousel-caption {
+    right: auto;
+    text-align: left;
+    left: 80px;
+}
+.topSlider  .carousel-control-prev{
+    top: auto;
+    left: 80px;
+    width: 130px;
+    padding: 0;
+    min-width: 130px;
+    max-width: 130px;
+    bottom: 30px;
+
+}
+.topSlider  .carousel-control-next{
+    left: 200px;
+    top: auto;
+    /* padding-left: 20px; */
+    max-width: 100px;
+    min-width: 100px;
+    width: 100px;
+    bottom: 53px;
+}
+.topSlider  .carousel-control-prev,
+.topSlider  .carousel-control-next{
+    opacity: 1;
+    
+    z-index: 1;
+}
+.topSlider  .carousel-control-prev{
+    display: flex;
+    justify-content: space-evenly;
+    align-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    bottom: 4%;
+}
+.topSlider .carousel-item{
+    height: 100vh;
+    min-height: 700px;
+}
+.topSlider .d-block {
+    display: block!important;
+    height: 100%;
+    object-fit: cover;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon{
+    width: 60px;
+
+}
+.carousel-caption{
+    z-index: 1;
+}
+
+ 
+.slidercontainer{
+    max-width: 90%;
+    margin: 0 auto;
+
+}
+
+.slidercontainer .react-multiple-carousel__arrow--left{
+
+}
+.slidercontainer .react-multiple-carousel__arrow{
+    position: absolute;
+    outline: 0;
+    transition: all .5s;
+     border-radius: 0;
+    z-index: 1;
+    border: 0;
+    min-width: 43px;
+    min-height: 43px;
+    opacity: 1;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-position: center;
+    background: rgba(0,0,0,0.0);
+}
+
+.slidercontainer .react-multiple-carousel__arrow::before{
+    content: '';
+}
+
+.slidercontainer  .react-multiple-carousel__arrow--left{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(https://solarland.s-tet.top/wp-content/uploads/2021/06/leftarrow-2.svg);
+
+}
+.slidercontainer  .react-multiple-carousel__arrow--right{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(https://solarland.s-tet.top/wp-content/uploads/2021/06/leftarrow-2.svg);
+    transform: rotate(180deg);
+}
+
+.slidercontainer  .react-multiple-carousel__arrow--left:hover{
+    background-position: center;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    
+    background-image: url(https://solarland.s-tet.top/wp-content/uploads/2021/06/leftarrowgreen.svg)
+}
+.slidercontainer  .react-multiple-carousel__arrow--right:hover{
+    background-position: center;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-image: url(https://solarland.s-tet.top/wp-content/uploads/2021/06/leftarrowgreen.svg)
+}
+
+
+
+.slidercontainer  .react-multiple-carousel__arrow:hover{
+    background-color: none;
+}
+.slidercontainer  .react-multiple-carousel__arrow--left {
+    left: calc(2% + 1px);
+}
+.slidercontainer  .react-multiple-carousel__arrow--right {
+    right: calc(2% + 1px);
+}
+.slidercontainer .react-multi-carousel-dot-list {
+    bottom: -40px;
+}
+.slidercontainer .react-multi-carousel-dot button{
+    border: none;
+    width: 25px;
+    height: 2px;
+    border-radius: 0;
+    background: lightgray;
+}
+.slidercontainer .react-multi-carousel-dot--active button{
+    background: #000 !important;
+}
+.inputWrap {
+    position: relative;
+}
+.inputWrap > label{
+    text-align: initial;
+    -webkit-transform: translateY(22px);
+    transform: translateY(22px);
+    position: absolute;
+    left: 0;
+    top: 0;
+
+}
+
+.inputWrap .active {
+    -webkit-transform: translateY(0px);
+    transform: translateY(0px);
+    font-size: 9px;
+}
+.gm-style-pbc{
+    display: none !important;
+}
+.lang .active{
+    color: #000 !important;
+}
+.clasePhwrap img {
+    max-width: 17px;
+    transform: rotate(45deg);
+}
+.dropdown-menu .phones {
+    display: none;
+}
+
+
+
+
+
+@media (min-width: 1525px)  {
+    /* .carousel-control-prev {
+        left: 20px;
+    } */
+}
+@media (max-width: 1200px)  {
+    /* .topSlider .carousel-control-next {
+        left: 150px;
+    } */
+}
+@media (max-width: 1200px){
+    /* .topSlider .carousel-control-next {
+        left: auto;
+        right: 73%;
+    } */
+
+        .rew-modal {
+            height: 62vh;
+    }
+}
+@media (max-width: 883px){
+    /* .topSlider .carousel-control-next {
+        left: auto;
+        right: 71%;
+    } */
+    .titleWrap{
+        font-size: 6vw;
+        line-height: 6.5vw;
+    }
+    .title{
+        max-width: 90%;
+    }
+    .mobImages .react-multi-carousel-item{
+        display: flex;
+    }
+    .mobImages .react-multi-carousel-dot-list {
+        bottom: -20px;
+    }
+    .rew-modal {
+        height: 52vh;
+    }
+}
+@media (max-width: 770px) {
+
+    .mobsteps .react-multiple-carousel__arrow,
+    .slidercontainer  .react-multiple-carousel__arrow{
+        top: auto;
+        /* bottom: -56px; */
+        top: auto;
+        background-color: #fff;
+        box-shadow: 1px 1px 30px rgb(0 0 0 / 20%);
+    }
+    .mobsteps .react-multi-carousel-item{
+        display: flex;
+        align-items: stretch;
+    }
+}
+
+
+
+
+@media (max-width: 743px){
+    /* .topSlider .carousel-control-next {
+        left: auto;
+        right: 70%;
+    } */
+    .titleShade{
+        display: none !important;
+    }
+
+}
+@media (max-width: 685px)  {
+    .topSlider .carousel-caption {
+        left: 0px;
+        right: 0;
+        padding: 0 25px;
+    }
+    .dropdown-menu .phones {
+        display: block;
+    }
+    .topSlider  .carousel-control-prev,
+    .topSlider  .carousel-control-next{
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        bottom: 13%;
+    }
+    .topSlider  .carousel-control-next{
+        bottom: 16.6%;
+        padding-left: 95px;
+    }
+    .topSlider  .carousel-control-prev{
+        padding-right: 100px;
+    }
+    /* .topSlider  .carousel-control-prev{
+        right: 100px;
+        padding-right: 60px;
+    }
+    .topSlider  .carousel-control-next{
+        left: 100px
+    } */
+    .topSlider  .carousel-indicators{
+        display: none !important;
+    }
+    .titleWrap{
+        font: normal normal bold 28px/42px Futura PT;
+        padding-top: 70px;
+    }
+    .pop{
+        width: 90%;
+    }
+    .modal-main{
+        width: 90%;
+    }
+    .mod{
+        width: 100vw;
+        height: 100vh;
+        max-width: 100%;
+        max-height: 100%;
+    }
+    .rew-modal {
+        height: 42vh;
+    }
+    #dropdown-basic{
+        /* min-height: 380px; */
+    }
+  .statClass{
+      position: absolute !important;
+  }
+  .rew-modal{
+      padding: 0;
+      background-color: transparent;
+  }
+}
