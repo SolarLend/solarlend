@@ -9,7 +9,7 @@ module.exports = {
   plugins: [
     {
       resolve: `gatsby-source-wordpress`, options: {
-        url: 'https://solarland.s-tet.top/graphql',
+        url: 'https://admin.solarland.com.ua/graphql',
       }
     },
     "gatsby-plugin-react-helmet",
