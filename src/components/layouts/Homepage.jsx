@@ -35,25 +35,25 @@ const Homepage = ({ data }) => {
         "content": "<p>Адреса об’єкту: с. Рославичи, Киевская область<br />\nПеріод монтажу: Ноябрь 2019<br />\nТерміни виконання: 3 рабочих дня<br />\nПотужність по інверторам: 30 кВт<br />\nВстановлення потужність панелей (PV)<br />\nОрієнтація: Юг<br />\nМережевий інвертор: Huawei SUN2000-33KTL-A<br />\nСонячні батареї: 28 шт. JA Solar JAM60S10-340/MR HalfCells Mono<br />\nСистеми кріплення: PRONT</p>\n",
         "featuredImage": {
             "node": {
-                "sourceUrl": "https://solarland.s-tet.top/wp-content/uploads/2021/06/obj3-2.png"
+                "sourceUrl": "https://admin.solarland.com.ua/wp-content/uploads/2021/06/obj3-2.png"
             }
         },
         "solarObj": {
             "objimages": [
                 {
-                    "sourceUrl": "https://solarland.s-tet.top/wp-content/uploads/2021/06/first-slide-2.png"
+                    "sourceUrl": "https://admin.solarland.com.ua/wp-content/uploads/2021/06/first-slide-2.png"
                 },
                 {
-                    "sourceUrl": "https://solarland.s-tet.top/wp-content/uploads/2021/06/DJI_0701-2.png"
+                    "sourceUrl": "https://admin.solarland.com.ua/wp-content/uploads/2021/06/DJI_0701-2.png"
                 },
                 {
-                    "sourceUrl": "https://solarland.s-tet.top/wp-content/uploads/2021/06/obj1-2.png"
+                    "sourceUrl": "https://admin.solarland.com.ua/wp-content/uploads/2021/06/obj1-2.png"
                 },
                 {
-                    "sourceUrl": "https://solarland.s-tet.top/wp-content/uploads/2021/06/obj2-2.png"
+                    "sourceUrl": "https://admin.solarland.com.ua/wp-content/uploads/2021/06/obj2-2.png"
                 },
                 {
-                    "sourceUrl": "https://solarland.s-tet.top/wp-content/uploads/2021/06/solorp-2.png"
+                    "sourceUrl": "https://admin.solarland.com.ua/wp-content/uploads/2021/06/solorp-2.png"
                 }
             ]
         }

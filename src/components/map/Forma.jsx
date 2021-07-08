@@ -141,7 +141,7 @@ const ContactForm = (props) => {
                         <div className={cl.checkWrap}>
                             <img src={check} alt="check" />
                         </div>
-                        <div className={cl.addrTitle, cl.thanktitle}>
+                        <div className={ cl.thanktitle}>
                             {props.lang === "uk" ? "Заявка прийнята" : "Заявка принята"}
                         </div>
                         <div className={cl.thanktext}>

@@ -18,9 +18,9 @@ const Head = (props) => {
             <link rel="icon" href={favicon} />
             <meta property="og:title" content={lang === "uk" ? "Сонячні електростанції в Україні" : "Солнечные электростанции в Украине"} />
             <meta property="og:description" name="description" content="Солнечные электростанции в Украине | SolarLend" />
-            <meta property="og:image" content="https://solarland.s-tet.top/wp-content/uploads/2021/07/666.jpg" />
-            <meta property="og:image:secure_url" content="https://solarland.s-tet.top/wp-content/uploads/2021/07/666.jpg" />
-            <meta property="og:image:url" content="https://solarland.s-tet.top/wp-content/uploads/2021/07/666.jpg" />
+            <meta property="og:image" content="https://admin.solarland.com.ua/wp-content/uploads/2021/07/666.jpg" />
+            <meta property="og:image:secure_url" content="https://admin.solarland.com.ua/wp-content/uploads/2021/07/666.jpg" />
+            <meta property="og:image:url" content="https://admin.solarland.com.ua/wp-content/uploads/2021/07/666.jpg" />
         </Helmet>
     )
 }
