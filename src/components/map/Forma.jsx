@@ -165,7 +165,7 @@ const ContactForm = (props) => {
                                             id="fullname"
                                             name="fullname"
                                             type="text"
-                                            placeholder={props.lang === "uk" ? "Ім’я*" : "Імя*"}
+                                            placeholder={props.lang === "uk" ? "Ім’я*" : "Имя*"}
                                             onChange={handleChange}
                                             value={values.fullname}
                                             required
