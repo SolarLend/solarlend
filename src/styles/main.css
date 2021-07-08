@@ -1197,13 +1197,13 @@ text-align: left;
 
 }
 .topSlider  .carousel-control-next{
+    bottom: 4%;
     left: 200px;
-    top: auto;
-    /* padding-left: 20px; */
     max-width: 100px;
     min-width: 100px;
+    top: auto;
     width: 100px;
-    bottom: 53px;
+    height: 60px;
 }
 .topSlider  .carousel-control-prev,
 .topSlider  .carousel-control-next{
@@ -1443,7 +1443,7 @@ text-align: left;
         bottom: 13%;
     }
     .topSlider  .carousel-control-next{
-        bottom: 16.6%;
+        bottom: 13%;
         padding-left: 95px;
     }
     .topSlider  .carousel-control-prev{
