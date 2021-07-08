@@ -17,7 +17,7 @@ import InputMask from 'react-input-mask';
 
 
 const ContactForm = (props) => {
-    const WEBSITE_URL = 'https://solarland.s-tet.top';
+    const WEBSITE_URL = 'https://admin.solarland.com.ua';
     const FORM_ID = '100'; //Form id that provides Contact Form 7
 
     const [token, setToken] = useState('') // store token
