@@ -136,4 +136,16 @@
     .text{
         font: normal normal 900 34px/40px Montserrat;
     }
+
+        
+}
+@media (max-width: 380px){
+    .text{
+        font: normal normal 900 31px/40px Montserrat;
+    }
+    .decortext{
+        font-size: 20px;
+        line-height: 70px;
+    }
+        
 }
