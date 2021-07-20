@@ -40,9 +40,9 @@ export const Objects = (props) => {
             <section id="obj" className={classNames(cl.objectsWrap, "animate__animated animate__fadeInUp")}>
                 <div className={classNames('titleWrap', cl.titleWrap)}>
                     <div className={classNames('title')}>
-                        {props.lang === "uk" ? "Реалізовані об’єкти" : "Реализованные обЪекти"}
+                        {props.lang === "uk" ? "Реалізовані об’єкти" : "Реализованные обЪекты"}
                         <div className={classNames('titleShade', cl.titleShade)}>
-                            {props.lang === "uk" ? "Реалізовані об’єкти" : "Реализованные обЪекти"}
+                            {props.lang === "uk" ? "Реалізовані об’єкти" : "Реализованные обЪекты"}
                         </div>
                     </div>
                 </div>
