@@ -160,7 +160,7 @@ export const Header = (props) => {
 
                         <div className="descAddr dropdown-item" > <img src={location} loading="lazy" /> <span>{props.adress}</span> </div>
 
-                        <Dropdown.Item className="mailLink" href={props.mail.url}> <img src={mail} alt="mail" loading="lazy" /> {props.mail.title}</Dropdown.Item>
+                        <Dropdown.Item className="mailLink" href={props.mail.url}> <img src={mail} alt="mail" loading="lazy" />"office@solarland.com.ua"</Dropdown.Item>
 
                         <p className="descAddr dropdown-item"> {props.lang === "uk" ? "пн. - пт. з 9:00 до 18:00" : "пн. - пт. c 9:00 до 18:00"} </p>
 
