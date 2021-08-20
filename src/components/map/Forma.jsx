@@ -3,7 +3,7 @@ import { useFormik } from 'formik'
 import axios from 'axios'
 import classNames from "classnames";
 import * as cl from './Forma.module.css'
-
+import { trackCustomEvent } from "gatsby-plugin-google-analytics";
 import ReactWOW from 'react-wow'
 
 import location from '../../images/Location.svg'
@@ -157,7 +157,10 @@ const ContactForm = (props) => {
                             </div>
 
 
-                            <form onSubmit={ handleSubmit }>
+                            <form onSubmit={ (e)=> { trackCustomEvent({
+                                category: "zayavka",
+                                action:"send_zayavka"
+                            }); handleSubmit } }>
                                 <fieldset>
                                     <div className={classNames(cl.inputWrap, 'inputWrap')}>
 
