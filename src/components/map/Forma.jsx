@@ -157,7 +157,9 @@ const ContactForm = (props) => {
                             </div>
 
 
-                            <form onSubmit={ (e)=> { trackCustomEvent({
+                            <form onSubmit={ (e)=> {
+                                e.preventDefault()
+                                trackCustomEvent({
                                 category: "zayavka",
                                 action:"send_zayavka"
                             }); handleSubmit } }>
