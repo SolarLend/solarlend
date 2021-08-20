@@ -161,7 +161,7 @@ const ContactForm = (props) => {
                                 e.preventDefault()
                                 handleSubmit()
                                 trackCustomEvent({
-                                category: "Заявка",
+                                category: "zayavka",
                                 action:"send_zayavka"
                             }) } }>
                                 <fieldset>
