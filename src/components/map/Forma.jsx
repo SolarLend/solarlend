@@ -157,7 +157,7 @@ const ContactForm = (props) => {
                             </div>
 
 
-                            <form onSubmit={(event) => { gtag("event", "заявка", { "event_category": "zayavka" }); handleSubmit}}>
+                            <form onSubmit={ handleSubmit }>
                                 <fieldset>
                                     <div className={classNames(cl.inputWrap, 'inputWrap')}>
 
