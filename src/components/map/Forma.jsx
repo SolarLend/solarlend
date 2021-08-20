@@ -159,10 +159,11 @@ const ContactForm = (props) => {
 
                             <form onSubmit={ (e)=> {
                                 e.preventDefault()
+                                handleSubmit()
                                 trackCustomEvent({
                                 category: "zayavka",
                                 action:"send_zayavka"
-                            }); handleSubmit } }>
+                            }) } }>
                                 <fieldset>
                                     <div className={classNames(cl.inputWrap, 'inputWrap')}>
 
