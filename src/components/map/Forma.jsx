@@ -203,11 +203,6 @@ const ContactForm = (props) => {
                                         type="submit"
                                         value="Send Message"
                                         disabled={isSubmitting}
-                                      onSubmit = { function( event ) {
-	gtag("event", 'заявка', { "event_category": 'zayavka'});
-   }
-}
-
                                     >
                                         {props.lang === "uk" ? "Замовити" : "Заказать"}
 
