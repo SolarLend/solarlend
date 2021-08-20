@@ -21,16 +21,6 @@ const Head = (props) => {
             <meta property="og:image" content="https://admin.solarland.com.ua/wp-content/uploads/2021/07/666.jpg" />
             <meta property="og:image:secure_url" content="https://admin.solarland.com.ua/wp-content/uploads/2021/07/666.jpg" />
             <meta property="og:image:url" content="https://admin.solarland.com.ua/wp-content/uploads/2021/07/666.jpg" />
-             {/* Global site tag (gtag.js) - Google Analytics  */}
-            <script async src={`https://www.googletagmanager.com/gtag/js?id=UA-199808557-2`}></script>
-            <script>
-            {`
-             window.dataLayer = window.dataLayer || [];
-             function gtag(){dataLayer.push(arguments);}
-             gtag('js', new Date());
-             gtag('config', 'UA-199808557-2');
-             `}
-             </script>
 
         </Helmet>
     )
