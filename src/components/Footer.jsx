@@ -48,7 +48,7 @@ export const Footer = (props) => {
       </div>
       <div className={cl.footerCopy}>
          <div className={cl.copyLeft}>
-            <span> {props.lang === "uk" ? "Рорзробка сайта:" : "Разработка сайта:"} </span><a href="#">ESTET DESIGN GROUP</a>
+            <span> {props.lang === "uk" ? "Рорзробка сайта:" : "Разработка сайта:"} </span><a href="https://www.s-tet.com.ua/" target="_blank">ESTET DESIGN GROUP</a>
          </div>
          <div className={cl.copyRight}>
             <p>© 2021 Solarland. {props.lang === "uk" ? "Усі права захищенні" : "Все права защищены:"} </p>
