@@ -1396,6 +1396,9 @@ text-align: left;
     .rew-modal {
         height: 52vh;
     }
+   .slidercontainer .react-multi-carousel-dot button {
+    width: 9px;
+}
 }
 @media (max-width: 770px) {
 
