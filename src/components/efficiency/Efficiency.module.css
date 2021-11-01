@@ -69,6 +69,9 @@
         overflow: hidden;
         padding: 0 15px;
     }
+    .imgwrap img{
+        margin: 0; 
+    }
     .imgwrap img:first-child,
     .imgwrap img:nth-child(3){
         display: none;
