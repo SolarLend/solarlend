@@ -1352,7 +1352,10 @@ text-align: left;
 }
 
 
-
+.slidercontainer .react-multi-carousel-dot button{
+   width: 9px;
+   margin: 0 4px 0 0;
+}
 
 
 @media (min-width: 1525px)  {
@@ -1397,7 +1400,8 @@ text-align: left;
         height: 52vh;
     }
    .slidercontainer .react-multi-carousel-dot button {
-    width: 9px;
+    width: 3px;
+    margin: 0 1px 0 0 !important
 }
 }
 @media (max-width: 770px) {
