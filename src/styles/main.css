@@ -1401,7 +1401,11 @@ text-align: left;
     }
    .slidercontainer .react-multi-carousel-dot button {
     width: 3px;
-    margin: 0 1px 0 0 !important
+    margin: 0 1.5px 0 0 !important;
+}
+   .slidercontainer .react-multi-carousel-dot--active button {
+    width: 10px !important;
+    background: #000!important;
 }
 }
 @media (max-width: 770px) {
