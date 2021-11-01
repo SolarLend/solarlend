@@ -132,6 +132,8 @@ text-align: center;
         background-position-x: 109%;
         background-position-y: 40px;
     }
+    .infotitle, .info{
+        text-align: center;
 }
 
 @media (max-width: 555px) {
