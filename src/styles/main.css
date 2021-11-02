@@ -357,7 +357,9 @@ template {
     color: lime;
 } */
 
-
+#gatsby-focus-wrapper{
+  overflow-x: hidden;
+}
 
 /*Header*/
 .container-fluid{
