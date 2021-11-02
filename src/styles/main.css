@@ -359,6 +359,7 @@ template {
 
 #gatsby-focus-wrapper{
   overflow-x: hidden;
+   min-width: 320px;
 }
 
 /*Header*/
