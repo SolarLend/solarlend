@@ -259,8 +259,4 @@ const ContactForm = (props) => {
 
 export default ContactForm
 
-        </ReactWOW>
-    )
-};
 
-export default ContactForm
