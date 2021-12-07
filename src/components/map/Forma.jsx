@@ -19,6 +19,10 @@ import InputMask from 'react-input-mask';
 const ContactForm = (props) => {
     const WEBSITE_URL = 'https://admin.solarland.com.ua';
     const FORM_ID = '100'; //Form id that provides Contact Form 7
+    
+    
+    
+    let formAmo = `<script>!function(a,m,o,c,r,m){a[o+c]=a[o+c]||{setMeta:function(p){this.params=(this.params||[]).concat([p])}},a[o+r]=a[o+r]||function(f){a[o+r].f=(a[o+r].f||[]).concat([f])},a[o+r]({id:"872368",hash:"24d69a22e98e69414a26087f4c4bcb38",locale:"ru"})}(window,0,"amo_forms_","params","load");</script><script id="amoforms_script_872368" async="async" charset="utf-8" src="https://forms.amocrm.ru/forms/assets/js/amoforms.js?1638865957"></script>`
 
     const [token, setToken] = useState('') // store token
     const [isSuccessMessage, setIsSuccessMessage] = useState(false) // manage is success message state
@@ -247,8 +251,7 @@ const ContactForm = (props) => {
                     </p>
                 </div>
                 
-                  <script dangerouslySetInnerHTML= {{ __html: `!function(a,m,o,c,r,m){a[o+c]=a[o+c]||{setMeta:function(p){this.params=(this.params||[]).concat([p])}},a[o+r]=a[o+r]||function(f){a[o+r].f=(a[o+r].f||[]).concat([f])},a[o+r]({id:"872368",hash:"24d69a22e98e69414a26087f4c4bcb38",locale:"ru"})}(window,0,"amo_forms_","params","load"); `}} />
-                   <script dangerouslySetInnerHTML= {{ __html: ` id="amoforms_script_872368" async="async" charset="utf-8" src="https://forms.amocrm.ru/forms/assets/js/amoforms.js?1638864945" `}} />`
+                <div>formAmo</div>
             </div>
             
         </ReactWOW>
