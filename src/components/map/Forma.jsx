@@ -247,6 +247,13 @@ const ContactForm = (props) => {
                     </p>
                 </div>
             </div>
+              <script dangerouslySetInnerHTML= {{ __html: `!function(a,m,o,c,r,m){a[o+c]=a[o+c]||{setMeta:function(p){this.params=(this.params||[]).concat([p])}},a[o+r]=a[o+r]||function(f){a[o+r].f=(a[o+r].f||[]).concat([f])},a[o+r]({id:"872368",hash:"24d69a22e98e69414a26087f4c4bcb38",locale:"ru"})}(window,0,"amo_forms_","params","load");<script id="amoforms_script_872368" async="async" charset="utf-8" src="https://forms.amocrm.ru/forms/assets/js/amoforms.js?1638864945"></script> `}} />`  
+        </ReactWOW>
+    )
+};
+
+export default ContactForm
+
         </ReactWOW>
     )
 };
