@@ -111,8 +111,9 @@ export const Header = (props) => {
             <Nav className="m-left-auto nav-wrapper">
 
                 <div className="lang mobLang">
+                    <Link activeClassName="active" to="/uk"> UA </Link>            
                     <Link activeClassName="active" to="/"> RU </Link>
-                    <Link activeClassName="active" to="/uk"> UA </Link>
+                
                 </div>
 
                 {menu}
