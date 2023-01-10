@@ -1,13 +1,13 @@
 const path = require(`path`)
 const languages = [
     {
-        path: "/",
+        path: "/ru",
         code: "ru",
         language: "ru_RU"
 
     },
     {
-        path: "/uk",
+        path: "/",
         code: "uk",
         language: "uk"
 
