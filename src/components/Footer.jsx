@@ -19,7 +19,7 @@ export const Footer = (props) => {
 
 
 
-   const menu = props.headerMenu[0].node.menuItems.nodes.map((menuItem, index) => {
+   const menu = props.headerMenu.map((menuItem, index) => {
       return <Nav.Link key={index} as={Link} to={menuItem.path}>{menuItem.label}</Nav.Link>
    })
 
