@@ -18,12 +18,13 @@ import close from '../images/plus.svg'
 
 export const Header = (props) => {
 
-    const menu = props.headerMenu[0].node.menuItems.nodes.map((menuItem, index) => {
+    const menu = props.headerMenu.map((menuItem, index) => {
         return <Nav.Link key={index} onClick={() => {
             setExpanded(false)
             setClass()
         }} as={Link} to={menuItem.path}>{menuItem.label}</Nav.Link>
     })
+
 
 
     const [expanded, setExpanded] = useState(false);
