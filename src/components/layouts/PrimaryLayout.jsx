@@ -19,9 +19,62 @@ const PrimaryLayout = (props) => {
     }
 
 
-    let headerMenu = props.menu.edges.filter((edge) => edge.node.slug === 'main-menu-ua' || edge.node.slug === 'main-menu-ru')
-    // let footerMenu = props.menu.edges.filter((edge) => edge.node.slug === 'main-menu-ua' || edge.node.slug === 'main-menu-ru')
+     const menuRu = [
+        {
+            label: "Почему соларленд",
+            path: "#choose"
+        },
+        {
+            label: "Этапы работ",
+            path: "#steps"
+        },
+        {
+           label: "Объекты",
+            path: "#obj"
+        },
+        {
+           label: "Стоимость",
+            path: "#price"
+        },
+          {
+           label: "Отзывы",
+            path: "#rev"
+        },
+           {
+           label: "Контакты",
+            path: "#address"
+        },
+    ]
 
+        const menuUa = [
+        {
+            label: "Чому solarland",
+            path: "#choose"
+        },
+        {
+            label: "Етапи робіт",
+            path: "#steps"
+        },
+        {
+           label: "Об’єкти",
+            path: "#obj"
+        },
+        {
+           label: "Вартість",
+            path: "#price"
+        },
+          {
+           label: "Відгуки",
+            path: "#rev"
+        },
+           {
+           label: "Контакти",
+            path: "#address"
+        },
+    ]
+
+
+    let headerMenu = props.lang === "uk" ? menuUa : menuRu;
 
 
 
