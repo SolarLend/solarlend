@@ -112,8 +112,8 @@ export const Header = (props) => {
             <Nav className="m-left-auto nav-wrapper">
 
                 <div className="lang mobLang">
-                    <Link activeClassName="active" to="/uk"> UA </Link>            
-                    <Link activeClassName="active" to="/"> RU </Link>
+                     <Link activeClassName="active" to="/"> UA </Link>            
+                    <Link activeClassName="active" to="/ru"> RU </Link>
                 
                 </div>
 
@@ -169,9 +169,9 @@ export const Header = (props) => {
                     </Dropdown.Menu>
                 </Dropdown>
                 <div className="lang descLang">
-
-                    <Link className={props.lang === "uk" ? "" : "active"} activeClassName="active" to="/"> RU </Link>
-                    <Link className={props.lang === "uk" ? "active" : ""} activeClassName="active" to="/uk"> UA </Link>
+                      <Link className={props.lang === "uk" ? "active" : ""} activeClassName="active" to="/"> UA </Link>
+                    <Link className={props.lang === "uk" ? "" : "active"} activeClassName="active" to="/ru"> RU </Link>
+                  
 
                 </div>
                 <a href='#conatctForm' className={'pop headerPop'}>
