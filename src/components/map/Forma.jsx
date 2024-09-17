@@ -208,7 +208,7 @@ const ContactForm = (props) => {
 
                                 </fieldset>
                                 <div>
-                                    <button className={classNames('pop', cl.formBtn, `${isSubmitting ? 'disabled' : ''}`)}
+                                    <button dangerouslySetInnerHTML={{ __html: onsubmit="gtag('event', 'заявка', { 'event_category': 'zayavka', 'event_action':'send_zayavka'});"}} className={classNames('pop', cl.formBtn, `${isSubmitting ? 'disabled' : ''}`)}
                                         type="submit"
                                         value="Send Message"
                                         disabled={isSubmitting}
