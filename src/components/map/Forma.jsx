@@ -232,15 +232,15 @@ const ContactForm = (props) => {
                 <div className={cl.addressBottom}>
                     <div className="mobAddr" id={mobaddrId}></div>
                     <p className={cl.addr}><img src={location} alt="" />
-                        {props.lang === "uk" ? "мiсто Київ, вулиця Володимира Сосюри, 6, офіс 219" : "город Киев, улица Владимира Сосюры, 6, офис 219"}
+                        {props.lang === "uk" ? "02095, місто Київ, вулиця Трускавецька, 10В, офіс 209" : "02095, город Киев, улица Трускавецкая, 10В, офис 209"}
 
 
                     </p>
                     <div className={cl.phonesMobWrap}>
 
-                        <p className={cl.phone}><img src={kiyvstar} alt="" /><a href="tel:+380677839000">+38 (067) 783-90-00</a></p>
-                        <p className={cl.phone}><img src={vodaphone} alt="" /><a href="tel:+380957839000"> +38 (095) 783-90-00</a></p>
-                        <p className={cl.phone}><img src={life} alt="" /><a href="tel:+380637839000">  +38 (063) 783-90-00</a></p>
+                        <p className={cl.phone}><img src={kiyvstar} alt="" /><a href="tel:+380678591000">+380 (67) 859-10-00</a></p>
+                        <p className={cl.phone}><img src={vodaphone} alt="" /><a href="tel:+380508591000"> +380 (50) 859-10-00</a></p>
+                        <p className={cl.phone}><img src={life} alt="" /><a href="tel:+380638591000">  +380 (63) 859-10-00</a></p>
 
                     </div>
 
