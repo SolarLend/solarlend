@@ -134,7 +134,8 @@
 
 @media (max-width: 380px){
     .text{
-        font: normal normal 900 34px/40px Montserrat;
+        font: normal normal 900 44px / 50px Montserrat;
+        text-align: center;
     }
 
         
