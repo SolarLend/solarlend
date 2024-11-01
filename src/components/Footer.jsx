@@ -41,9 +41,7 @@ export const Footer = (props) => {
             <div className={cl.decorLine}></div>
             <div className={cl.social}>
                <a href={props.facebook} target="_blank"> <img src={faceBook} alt="faceBook" /> </a>
-               if(props.youtube){
-                       <a href={props.youtube} target="_blank"> <img className={cl.you} src={youTube} alt="youtube" /> </a>
-               }
+         
                <a href={props.instagram} target="_blank"> <img src={insta} alt="instagarm" /> </a>
             </div>
          </div>
