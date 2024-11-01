@@ -1457,6 +1457,9 @@ text-align: left;
         margin: 0 auto;
         bottom: 13%;
     }
+    .topSlider  .carousel-control-prev{
+               left: -15%;
+    }
     .topSlider  .carousel-control-next{
         bottom: 13%;
         padding-left: 170px;
