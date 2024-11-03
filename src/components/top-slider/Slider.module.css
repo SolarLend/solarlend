@@ -101,6 +101,7 @@
     }
     .text{
         font: normal normal 900 37px/40px Montserrat;
+        text-align: center;
     }
     .caption{
         max-width: 100%;
