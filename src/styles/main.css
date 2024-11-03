@@ -1463,6 +1463,7 @@ text-align: left;
     margin: 0 auto;
     left: -70px;
     right: 0;
+       padding: 0 !important;
     }
     .topSlider  .carousel-control-next{
         bottom: 13%;
