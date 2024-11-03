@@ -58,6 +58,7 @@
 @media (max-width: 685px) {
     .bottomTextOne{
         font: normal normal normal 18px/27px Montserrat;
+        padding: 0 15px;
     }
     .bottomTextTwo{
         font: normal normal bold 18px/27px Montserrat;
