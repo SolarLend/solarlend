@@ -21,7 +21,7 @@ const PrimaryLayout = (props) => {
 
      const menuRu = [
         {
-            label: "Почему соларленд",
+            label: "Почему solarland",
             path: "#choose"
         },
         {
