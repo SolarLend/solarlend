@@ -74,31 +74,22 @@ const ContactForm = (props) => {
 		}, { setSubmitting, resetForm }) => {
 			setSubmitting(true)
 			// here we created a FormData field for each form field
-			/*
 			const bodyFormData = new FormData();
 			bodyFormData.set('fullname', fullname);
 			bodyFormData.set('email', email);
 			bodyFormData.set('phone', phone);
-			*/
-
-			let formData = {
-				"customerDraft": {
-					"name": fullname,
-					"number": phone,
-					"email": email
-				}
-			}
 
 			// here we sent
 			axios({
 				method: 'post',
-				url: `https://my.binotel.ua/b/smartcrm/api/widget/v1/deal/create?token=2653.c7ab268ab1aee669140cc7bc86a6702a`,
-				data: JSON.stringify(formData),
+				url: `${WEBSITE_URL}/wp-json/contact-form-7/v1/contact-forms/${FORM_ID}/feedback`,
+				data: bodyFormData,
 				headers: {
-					'Content-Type': 'application/json'
+					'Authorization': `Bearer ${token}`,
+					'Content-Type': 'multipart/form-data'
 				},
 			}).then(response => {
-				console.log(response)
+				// console.log(response)
 				// actions taken when submission goes OK
 				resetForm()
 				setSubmitting(false)
